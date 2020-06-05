@@ -35,7 +35,8 @@ weatherForm.addEventListener('submit', (e) => {
     // }
 
     // const query = 'http://localhost:3000/weather?address=' + encodeURIComponent(location)
-    const query = 'http://localhost:3000/weather?address=' + location
+    // const query = 'http://localhost:3000/weather?address=' + location
+    const query = '/weather?address=' + location
 
     // fetch when someone submits form
     fetch(query).then((response) => {
